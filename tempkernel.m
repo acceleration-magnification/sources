@@ -2,6 +2,7 @@
 %%% Code rewritten from Yichao Zhang.
 %%% Date: July 2017.
 
+
 % This function is used to build the convolution kernel for the temporal processing.
 % The function takes the video parameters and genrated 1D kernel     
 function [kernel] = tempkernel(params)

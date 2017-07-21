@@ -2,6 +2,7 @@
 %%% Code rewritten from Yichao Zhang.
 %%% Date: July 2017.
 
+
 % This function takes the parameters of the video and magnifies the small local motions by factor alpha.
 % Spatial Decomposition -> Kernel Generation -> Convolution -> Phase Correction -> Motion Magnification.
 function motionamp(vid, params)
