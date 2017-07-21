@@ -2,7 +2,7 @@
 
 Matlab source-code rewritten by Dr. Seyran Khademi (S.khademi@tudelft.nl), using as a starting point the source-code of Yichao Zhang.
 If you find any bugs or improvements, feel free to contact Dr. Seyran Khademi. 
-If you find the code useful, please cite the paper: Video Acceleration Magnification (Proceedings CVPR 2017).
+If you find the code useful, please cite the paper: *[Video Acceleration Magnification](https://acceleration-magnification.github.io/paper.pdf)* (Proceedings CVPR 2017).
 
 The paper and example videos can be found on the project web page: https://acceleration-magnification.github.io
 
@@ -53,8 +53,8 @@ The output will be saved in:
 
 ### Usage: demo.m
 
-1) Run "make.m" to build pyramid toolbox libraries.
-2) Run: "demo.m [your_video_name] [.video_extension]" (example: "demo cat_toy .avi").
+1) Run *"make.m"* to build pyramid toolbox libraries.
+2) Run: *"demo.m [your_video_name] [.video_extension]"* (example: *"demo cat_toy .avi"*).
 
 
 *NOTE* that the best results are achieved with stable videos without shaking ( tripods-recorded rather than hand-recorded) since the acceleration magnification, magnifies any nonlinear movement once it falls within the bandpass of the second-derivative (high-pass) filter. 
