@@ -37,14 +37,14 @@ This package is organized as follows.
 
 The included example consists of sub-folders. The minimum input requirements are:
 
-data/
-    raw_vid/[your_video_name] # the input original video
+	data/
+	    raw_vid/[your_video_name] # the input original video
 
 The output will be saved in:
 
-data/
-    result_vid/[your_video_name]/im_write/fr*.png # the output motion-magnified video frames
-    result_vid/[your_video_name.avi]              # the output motion-magnified video file
+	data/
+   		result_vid/[your_video_name]/im_write/fr*.png # the output motion-magnified video frames
+    		result_vid/[your_video_name.avi]              # the output motion-magnified video file
 
 ### Usage: demo.m
 
@@ -53,5 +53,7 @@ data/
 
 
 *NOTE* that the best results are achieved with stable videos without shaking ( tripods-recorded rather than hand-recorded) since the acceleration magnification, magnifies any nonlinear movement once it falls within the bandpass of the second-derivative (high-pass) filter. 
+
 Please refer to the Matlab code for more details. 
+
 Generating each of the results may take hours, this inefficiency is due to the serial filtering implementation in time domain which removes the dependency on fully available video and enables the processing for large videos without encountering the memory issues.  
