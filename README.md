@@ -1,6 +1,7 @@
 # Video Acceleration Magnification
 
-Matlab source code rewritten by Dr. Seyran Khademi (S.khademi@tudelft.nl) starting from the source code of Yichao Zhang.
+Matlab source-code rewritten by Dr. Seyran Khademi (S.khademi@tudelft.nl), using as a starting point the source-code of Yichao Zhang.
+
 If you find any bugs or improvements, feel free to contact Dr. Seyran Khademi. 
 If you find the code useful, please cite the paper: Video Acceleration Magnification (Proceedings CVPR 2017).
 
@@ -21,17 +22,22 @@ This package is organized as follows.
 		raw_vid/                          # directory storing the original videos
 		result_vid/                       # directory storing the result videos	   
 		result_vid/[video_name]/im_write/ # directory storing the result videos frames	   
-	third/                                    # third party libs 
-		matlabPyrTools/                   # directory containing the pyramid toolbox by Eero Simoncelli 	
-		phaseCorrection/                  # directory containing	 	
 	motionamp.m                               # script that performs the actual motion magnification
 	setparameters.m                           # scripts defining the method parameters
-	tempkernel.m                              # script defining the temporal kernel (‘INT’ or ‘DOG’) 
-						  # for obtaining the second order derivative of the video temporally 
+	tempkernel.m                              # script defining the temporal kernel (‘INT’ or ‘DOG’) for 2nd order 	derivative 
 	make.m			                  # script for (re)compiling the mex files for matlabPyrTools 
 	demo.m                                    # script that will run the magnification over a given input video example
 	main.m                                    # script that will replicate the paper results 
 	README.md                                 # this file
+
+Third party software:
+
+	third/                            # third party libs 
+		matlabPyrTools/           # directory containing the pyramid toolbox by Eero Simoncelli 	
+	phaseCorrection/                  # directory containing	 	
+
+All credit for third party sofware is with the authors. 
+
 
 ### Input and output:
 
