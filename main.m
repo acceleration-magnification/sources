@@ -30,7 +30,7 @@ clear all
 clc
 
 %%% Gun shot video %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Bulding the parameters for video to be processes
+% Bulding the parameters for video to be processes
 [vid_in,params] = setparameters('gun_shot','.mp4',fullfile('data','raw_vid'),fullfile('data','result_vid'),8,8,'DOG');
    
 % Spatial Decomposition -> Kernel Generation -> Convolution -> Phase Correction -> Motion Magnification
@@ -52,7 +52,7 @@ clear all
 clc
 
 %%% Parkinson II video %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Bulding the parameters for video to be processes
+% Bulding the parameters for video to be processes
 [vid_in,params] = setparameters('parkinson2','.mp4',fullfile('data','raw_vid'),fullfile('data','result_vid'),3,8,'INT');
    
 % Spatial Decomposition -> Kernel Generation -> Convolution -> Phase Correction -> Motion Magnification
