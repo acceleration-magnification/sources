@@ -1,14 +1,13 @@
 # Video Acceleration Magnification
 
 Matlab source-code rewritten by Dr. Seyran Khademi (S.khademi@tudelft.nl), using as a starting point the source-code of Yichao Zhang.
-
 If you find any bugs or improvements, feel free to contact Dr. Seyran Khademi. 
 If you find the code useful, please cite the paper: Video Acceleration Magnification (Proceedings CVPR 2017).
 
 The paper and example videos can be found on the project web page: https://acceleration-magnification.github.io
 
 The code was written in MATLAB R2017b, and tested on Mac OSX and Linux. 
-It uses the pyramid toolbox by Eero Simoncelli (matlabPyrTools), available at http://www.cns.nyu.edu/~eero/software.php. and the Phase Correction Code from the paper “Phase-Based Frame Interpolation for Video (CVPR 2015)” at https://github.com/owang/PhaseBasedInterpolation. 
+It uses the *pyramid toolbox by Eero Simoncelli (matlabPyrTools), available at http://www.cns.nyu.edu/~eero/software.php*, and the Phase Correction Code from the paper *“Phase-Based Frame Interpolation for Video (CVPR 2015)” at https://github.com/owang/PhaseBasedInterpolation*. 
 For convenience, we have included the toolboxes.
 
 ### Requirements:
@@ -34,7 +33,7 @@ Third party software:
 
 	third/                            # third party libs 
 		matlabPyrTools/           # directory containing the pyramid toolbox by Eero Simoncelli 	
-	phaseCorrection/                  # directory containing	 	
+		phaseCorrection/          # directory containing	 	
 
 All credit for third party sofware is with the authors. 
 
@@ -44,13 +43,13 @@ All credit for third party sofware is with the authors.
 The included example consists of sub-folders. The minimum input requirements are:
 
 	data/
-	    raw_vid/[your_video_name] # the input original video
+		raw_vid/[your_video_name] # the input original video
 
 The output will be saved in:
 
 	data/
-   		result_vid/[your_video_name]/im_write/fr*.png # the output motion-magnified video frames
-    		result_vid/[your_video_name.avi]              # the output motion-magnified video file
+		result_vid/[your_video_name]/im_write/fr*.png	# the output motion-magnified video frames
+		result_vid/[your_video_name.avi]             	# the output motion-magnified video file
 
 ### Usage: demo.m
 
