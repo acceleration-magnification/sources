@@ -83,3 +83,4 @@ motionamp(vid_in,params);
 % After generating video, clean everything.
 clear all
 clc
+
