@@ -2,7 +2,6 @@
 %%% Code rewritten from Yichao Zhang.
 %%% Date: July 2017.
 
-
 addpath(fullfile('third', 'matlabPyrTools'));
 addpath(fullfile('third', 'matlabPyrTools', 'MEX'));
 addpath(fullfile('third', 'phaseCorrection'));
