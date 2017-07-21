@@ -1,4 +1,4 @@
-%%% Authors: Dr. Seyran Khademi.
+%%% Author: Dr. Seyran Khademi.
 %%% Code rewritten from Yichao Zhang.
 %%% Date: July 2017.
 
